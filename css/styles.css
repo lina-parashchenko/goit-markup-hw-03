@@ -159,6 +159,26 @@ color: #434455;
  .button-service:hover,
  .button-service:focus{background-color: #404BBF;}
 
+.visually-hidden{
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  overflow:hidden;
+}
+
+.descr-list{
+  display: flex;
+  align-items: center;
+  padding: 120px 0;
+}
+.descr-list .desc-iteam{
+  width: calc((100% - 3 * 24px) / 4);
+}
 .desc-text {
   font-weight: 400;
   font-size: 16px;
