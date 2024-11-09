@@ -302,6 +302,7 @@ display: inline-block;
 padding-top: 100px;
 }
  .page-end{
+  padding: 100px 0;
   background: #2e2f42;
 }
 
