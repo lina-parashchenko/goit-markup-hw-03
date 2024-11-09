@@ -123,6 +123,7 @@ color: #434455;
   display: block;
   align-items: center;
   background: #2e2f42;
+  padding: 188px 0
 }
 
 .page-title{
@@ -132,8 +133,9 @@ color: #434455;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  padding: 188px 0 188px;
   max-width: 496px;
+  margin-bottom: 48px;
+
   }
 
   .button-service{
