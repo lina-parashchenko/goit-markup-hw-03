@@ -203,7 +203,7 @@ color: #434455;
   justify-content: center;
     align-items: center;
     gap: 24px;
-  width: calc((100% - 3 * 24) / 4);
+  
 }
 
   .title-section{font-family: "Roboto", sans-serif;
@@ -240,6 +240,7 @@ margin-bottom: 72px;
    line-height: 1.2;
    letter-spacing: 0.02em;
    color: #2e2f42;
+  width: calc((100% - 3 * 24) / 4);
   background-color: #FFFFFF
 }
 
@@ -250,7 +251,7 @@ margin-bottom: 72px;
         text-align: center;
         line-height: 1.2;
         color:#2e2f42;
-      padding-bottom: 8px;} 
+        margin-bottom: 8px;} 
 
 .desc-member-team{ 
   font-family: "Roboto", sans-serif;
