@@ -186,6 +186,7 @@ color: #434455;
  
 .container-team{
   width: 100%;
+  padding: 120px 0 120px;
 }
 .team-list {
   background-color: #F4F4FD
@@ -195,7 +196,6 @@ color: #434455;
   display: flex;
   justify-content: center;
     align-items: center;
-    padding: 120px 0;
     gap: 24px;
   width: calc((100% - 3 *24) / 4);
 }
@@ -208,7 +208,7 @@ color: #434455;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 text-align: center;
-padding-top: 120px;
+margin-bottom: 72px;
 }
 .portfolio-list{
   display: flex;
