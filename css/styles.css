@@ -117,9 +117,7 @@ color: #434455;
  }
 
 .container-hero{
-  width: 1440px;
-
-}
+  width: 100%}
 
 .main-page{
   display: block;
@@ -175,6 +173,7 @@ color: #434455;
   display: flex;
   align-items: center;
   padding: 120px 0;
+  gap: 24px;
 }
 .descr-list .desc-iteam{
   width: calc((100% - 3 * 24px) / 4);
@@ -188,7 +187,19 @@ color: #434455;
 }
  .team-list {
   background-color: #F4F4FD
+}
+ .container-team{
+  width: 1440 px;
  }
+.team-iteam{
+  display: flex;
+  justify-content: center;
+    align-items: center;
+    padding: 120px 0;
+    gap: 24px;
+  width: calc((100% - 3 *24) / 4);
+}
+
   .title-section{font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
@@ -197,14 +208,17 @@ color: #434455;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 text-align: center;
+padding-top: 72px;
 }
    .title-desc{
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
    line-height: 1.2;
    letter-spacing: 0.02em;
    color: #2e2f42;
-  background-color: #FFFFFF}
+  background-color: #FFFFFF
+}
 
 
 .member-team{ 
@@ -212,7 +226,9 @@ text-align: center;
         font-size: 20px;
         text-align: center;
         line-height: 1.2;
-        color:#2e2f42;} 
+        color:#2e2f42;
+      padding-top: 32px;
+      padding-bottom: 8px;} 
 
 .desc-member-team{ 
   font-family: "Roboto", sans-serif;
@@ -220,7 +236,9 @@ text-align: center;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;}
+  color: #434455;
+  text-align: center;
+  margin-bottom: 32px;}
         
 .title-description-port{
     font-weight: 500;
