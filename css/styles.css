@@ -176,7 +176,10 @@ color: #434455;
   display: flex;
   align-items: center;
   gap: 24px;
-  width: calc((100% - 72px) / 4)
+  
+}
+.desc-iteam{
+width: calc((100% - 72px) / 4);
 }
 
 .desc-text {
@@ -189,9 +192,10 @@ color: #434455;
  
 .container-team{
   width: 100%;
-  padding: 120px 0 120px;
+ 
 }
 .team-list {
+  padding: 120px 0 120px;
   background-color: #F4F4FD
 }
 .container-name-team{
@@ -243,8 +247,6 @@ margin-bottom: 72px;
    line-height: 1.2;
    letter-spacing: 0.02em;
    color: #2e2f42;
-  width: calc((100% - 72px) / 4);
-
   background-color: #FFFFFF
 }
 
