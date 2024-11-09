@@ -168,11 +168,13 @@ color: #434455;
   white-space: nowrap;
   border: 0;
 }
+.desc-work{
+  padding: 120px 0;
+}
 
 .descr-list{
   display: flex;
   align-items: center;
-  padding: 120px 0;
   gap: 24px;
 }
 .descr-list .desc-iteam{
