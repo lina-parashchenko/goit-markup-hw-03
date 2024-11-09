@@ -176,6 +176,7 @@ color: #434455;
   display: flex;
   align-items: center;
   gap: 24px;
+  width: calc((100% - 72px) / 4)
 }
 
 .desc-text {
