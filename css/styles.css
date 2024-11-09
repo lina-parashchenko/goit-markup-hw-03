@@ -224,6 +224,7 @@ margin-bottom: 72px;
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px;
 }
 
 .container-port{
@@ -232,7 +233,7 @@ margin-bottom: 72px;
     border-right: 1px solid #e7e9fc;
     padding: 32px 16px;
     width: 360px;
-  margin-bottom: 48px;
+
 }
 
    .title-desc{
@@ -275,7 +276,7 @@ margin-bottom: 72px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: left;
-    padding-bottom: 8px;
+    margin-bottom: 8px
   
 }
 .descr-text{
