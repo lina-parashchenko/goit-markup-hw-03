@@ -177,9 +177,7 @@ color: #434455;
   align-items: center;
   gap: 24px;
 }
-.descr-list .desc-iteam{
-  width: calc((100% - 3 * 24px) / 4);
-}
+
 .desc-text {
   font-weight: 400;
   font-size: 16px;
