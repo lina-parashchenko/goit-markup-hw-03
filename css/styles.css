@@ -157,7 +157,7 @@ color: #434455;
  .button-service:hover,
  .button-service:focus{background-color: #404BBF;}
 
-.visually-hidden {
+.visually-hidden{
   position: absolute;
   width: 1px;
   height: 1px;
