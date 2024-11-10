@@ -116,8 +116,7 @@ color: #434455;
    color: #404bbf;
  }
 
-.container-hero{
-  width: 100%}
+
 
 .main-page{
   display: block;
@@ -134,6 +133,7 @@ color: #434455;
   text-align: center;
   color: #fff;
   max-width: 496px;
+  margin: 0 auto;
   margin-bottom: 48px;
 
   }
